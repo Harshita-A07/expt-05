@@ -1,0 +1,11 @@
+def name(a,b):
+    c=a+b
+    return c
+a=input("enter your first name:")
+b=input("enter your second name:")
+print("the full name is",name(a,b))
+
+OUTPUT:
+enter your first name:A.
+enter your second name:harshita
+the full name is A.harshita
