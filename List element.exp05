@@ -1,0 +1,19 @@
+list1=[]
+n=int(input("enter no of element:"))
+for i in range (0,n):
+    e=int(input("enter a element:"))
+    list1.append(e)
+print(list1)
+print("sum of elements in a list",sum(list1))
+list1.reverse()
+print("reversed list",list1)
+
+OUTPUT:
+enter no of element:4
+enter a element:1
+entera element:2
+entera element:3
+entera element:4
+[1,2,3,4]
+sum of elements in a list 10
+reversed list None [4,3,2, 1]
