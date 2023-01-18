@@ -1,0 +1,9 @@
+n=int(input("enter time in min to be converted:"))
+def t():
+    T=n*60
+    return T
+print(n,"hours is",t(),"seconds")
+
+OUTPUT:
+enter time in min to be converted:30
+30 hours is 1800 seconds
