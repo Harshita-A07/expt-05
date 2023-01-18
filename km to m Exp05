@@ -1,0 +1,9 @@
+n=int(input("enter km to be converted:"))
+def m():
+    M=n*1000
+    return M
+print("the",n,"km is",m(),"metres")
+
+OUTPUT:
+enter km to be converted:245
+the 245 km is 245000 metres
